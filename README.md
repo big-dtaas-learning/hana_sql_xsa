@@ -1,0 +1,1 @@
+# hana_sql_xsa
