@@ -5,12 +5,12 @@ version: 0.0.1
 modules:
  - name: core_db
    type: hdb
-   path: core_db
+   path: core-db
    requires:
     - name: hdi_core_db
 
 resources:
  - name: hdi_core_db
    properties:
-      hdi-container-name: ${service-name}
+      hdi-container-name: 'HANA_SQL_XSA'
    type: com.sap.xs.hdi-container
